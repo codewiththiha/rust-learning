@@ -17,7 +17,14 @@ path = "src/bin/chapters/chapter1/variables.rs"
 name = "cast-pointer"
 path = "src/bin/chapters/chapter1/casting-pointer.rs"
 
+[[bin]]
+name = "functions"
+path = "src/bin/chapters/chapter2/functions.rs"
 
+
+[[bin]]
+name = "loops-conditions"
+path = "src/bin/chapters/chapter2/loops-conditions.rs"
 
 [dependencies]
 rand = "0.10.0"
