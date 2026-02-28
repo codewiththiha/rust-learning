@@ -1,0 +1,23 @@
+[package]
+name = "rust-learning"
+version = "0.1.0"
+edition = "2024"
+
+
+[[bin]]
+name = "hello"
+path = "src/bin/chapters/chapter1/hello.rs"
+
+[[bin]]
+name = "variables"
+path = "src/bin/chapters/chapter1/variables.rs"
+
+
+[[bin]]
+name = "cast-pointer"
+path = "src/bin/chapters/chapter1/casting-pointer.rs"
+
+
+
+[dependencies]
+rand = "0.10.0"

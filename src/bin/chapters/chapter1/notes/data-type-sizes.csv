@@ -1,0 +1,6 @@
+Type,Size,Range,C Equivalent
+i8", "i16", "i32", "i64", "i128,1-16 bytes,Signed integers,int8_t", "int16_t", etc."
+u8", "u16", "u32", "u64", "u128,1-16 bytes,Unsigned integers,uint8_t", "uint16_t", etc."
+f32", "f64,4-8 bytes,Floating point,float", "double
+bool,1 byte,true/false,_Bool / bool
+char,4 bytes,Unicode scalar,wchar_t (but safer)
