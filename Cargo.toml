@@ -26,5 +26,10 @@ path = "src/bin/chapters/chapter2/functions.rs"
 name = "loops-conditions"
 path = "src/bin/chapters/chapter2/loops-conditions.rs"
 
+
+[[bin]]
+name = "match"
+path = "src/bin/chapters/chapter2/match-example.rs"
+
 [dependencies]
 rand = "0.10.0"

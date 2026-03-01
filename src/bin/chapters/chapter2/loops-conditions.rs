@@ -58,4 +58,25 @@ fn main() {
     for i in &mut arr {
         *i *= 2;
     }
+
+    // loop return a value
+    let mut count = 0;
+    let result = loop {
+        count += 1;
+        if count == 20 {
+            break count * 2; // this act as final return value
+        }
+    };
+    println!("result :{}", result);
+
+    // label loop example
+    'outer: for i in 0..5 {
+        println!("i:{}", i);
+        for j in 0..5 {
+            println!("j:{}", j);
+            if i == 2 && j == 2 {
+                break 'outer; // breaking outer loop
+            }
+        }
+    }
 }
