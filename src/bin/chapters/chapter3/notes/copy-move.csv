@@ -1,0 +1,6 @@
+Type,Behavior,Example
+i32", "u64", "f64,Copy,let y = x; - both valid
+bool", "char,Copy,let b2 = b1; - both valid
+String", "Vec<T>,Move,let s2 = s1; - s1 invalid
+&T (references),Copy,let r2 = r1; - both valid
+Structs,Depends,"If all fields Copy, then Copy"

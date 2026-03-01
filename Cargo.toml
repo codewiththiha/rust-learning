@@ -31,5 +31,18 @@ path = "src/bin/chapters/chapter2/loops-conditions.rs"
 name = "match"
 path = "src/bin/chapters/chapter2/match-example.rs"
 
+
+[[bin]]
+name = "owner_example"
+path = "src/bin/chapters/chapter3/owner-example.rs"
+
+[[bin]]
+name = "borrowing-rules"
+path = "src/bin/chapters/chapter3/borrowing-rules.rs"
+
+[[bin]]
+name = "lifetime"
+path = "src/bin/chapters/chapter3/lifetime.rs"
+
 [dependencies]
 rand = "0.10.0"
