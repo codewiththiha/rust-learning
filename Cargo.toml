@@ -49,6 +49,33 @@ path = "src/bin/chapters/chapter3/lifetime.rs"
 name = "ref-v-owner"
 path = "src/bin/chapters/chapter3/ref-v-owner.rs"
 
+[[bin]]
+name = "struct"
+path = "src/bin/chapters/chapter4/struct.rs"
+
+[[bin]]
+name = "impl-methods"
+path = "src/bin/chapters/chapter4/impl-methods.rs"
+
+[[bin]]
+name = "enum-example"
+path = "src/bin/chapters/chapter4/enum-example.rs"
+
+[[bin]]
+name = "generic"
+path = "src/bin/chapters/chapter4/generic.rs"
+
+[[bin]]
+name = "built-in-result-enum"
+path = "src/bin/chapters/chapter4/built-in-result-enum.rs"
+
+[[bin]]
+name = "qmark-operator"
+path = "src/bin/chapters/chapter4/qmark-operator.rs"
+
+
+
+
 
 
 [dependencies]
