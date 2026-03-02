@@ -44,5 +44,12 @@ path = "src/bin/chapters/chapter3/borrowing-rules.rs"
 name = "lifetime"
 path = "src/bin/chapters/chapter3/lifetime.rs"
 
+
+[[bin]]
+name = "ref-v-owner"
+path = "src/bin/chapters/chapter3/ref-v-owner.rs"
+
+
+
 [dependencies]
 rand = "0.10.0"

@@ -18,6 +18,7 @@ fn main() {
     println!("s2:{}", s2);
     s2 = String::from("HH");
     println!("s2:{}", s2);
+    println!("get_string {}", get_string());
 
     // Compiler's Logic: 1. string1 lives for 6 lines. string2 lives for 3 lines.
     // 2. The "Shortest Common" lifetime is 3 lines.
