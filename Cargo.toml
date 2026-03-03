@@ -73,10 +73,28 @@ path = "src/bin/chapters/chapter4/built-in-result-enum.rs"
 name = "qmark-operator"
 path = "src/bin/chapters/chapter4/qmark-operator.rs"
 
+[[bin]]
+name = "vec-str"
+path = "src/bin/chapters/chapter5/vec-str.rs"
+
+[[bin]]
+name = "vec-demo"
+path = "src/bin/chapters/chapter5/vec-demo.rs"
+
+[[bin]]
+name = "hash-map"
+path = "src/bin/chapters/chapter5/hash-map.rs"
+
+[[bin]]
+name = "box-demo"
+path = "src/bin/chapters/chapter5/box-demo.rs"
 
 
-
+[[bin]]
+name = "snake"
+path = "src/bin/chapters/snake_game/snake.rs"
 
 
 [dependencies]
+crossterm = "0.27"
 rand = "0.10.0"

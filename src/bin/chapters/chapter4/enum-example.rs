@@ -39,5 +39,7 @@ fn main() {
     match_return(dir);
     let msg = Message::Write(String::from("Hello World"));
     Message::process(&msg);
+    let v2 = Message::Move { x: 20, y: 40 };
+    // common way to use method lol!
+    v2.process();
 }
-
