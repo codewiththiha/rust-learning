@@ -94,6 +94,10 @@ path = "src/bin/chapters/chapter5/box-demo.rs"
 name = "snake"
 path = "src/bin/chapters/snake_game/snake.rs"
 
+[[bin]]
+name = "derive-demo"
+path = "src/bin/chapters/chapter6/derive-demo.rs"
+
 
 [dependencies]
 crossterm = "0.27"
