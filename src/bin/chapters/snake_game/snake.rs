@@ -59,6 +59,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
         }
 
         if last_tick.elapsed() >= Duration::from_millis(100) {
+            // to get own value and we intentionally copy the old head's position
             let mut new_head = *body.front().unwrap();
 
             match dir {

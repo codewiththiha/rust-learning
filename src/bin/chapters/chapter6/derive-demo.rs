@@ -11,7 +11,7 @@ use std::fmt;
 // Without it: println!("{:?}", my_error) will cause a compiler error.
 //
 // With it: The compiler writes a hidden function that "inspects" your enum and prints it like this: FileNotFound("missing.txt").
-#[derive(Debug)]
+#[derive(Debug)] // adding this #derive will make our GameError enum becomes a member of Debug 
 enum GameError {
     FileNotFound(String),
     InvalidInput(String),
