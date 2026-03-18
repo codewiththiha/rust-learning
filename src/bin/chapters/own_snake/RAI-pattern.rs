@@ -98,10 +98,10 @@ impl TerminalGuard {
 impl Drop for TerminalGuard {
     fn drop(&mut self) {
         // Best-effort cleanup — ignore errors during drop
-        let _ = self.stdout.execute(LeaveAlternateScreen);
-        let _ = terminal::disable_raw_mode();
+        let _do = self.stdout.execute(LeaveAlternateScreen);
+        let _do = terminal::disable_raw_mode();
         // give user's cursor back
-        let _ = self.stdout.execute(Show);
+        let _do = self.stdout.execute(Show);
     }
 }
 

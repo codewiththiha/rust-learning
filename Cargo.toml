@@ -115,6 +115,11 @@ name = "RAI"
 path = "src/bin/chapters/own_snake/RAI-pattern.rs"
 
 
+[[bin]]
+name = "refcell"
+path = "src/bin/chapters/advanced_topics/refcell.rs"
+
+
 [dependencies]
 crossterm = "0.28"
 rand = "0.10.0"
