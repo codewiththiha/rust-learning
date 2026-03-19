@@ -119,6 +119,10 @@ path = "src/bin/chapters/own_snake/RAI-pattern.rs"
 name = "refcell"
 path = "src/bin/chapters/advanced_topics/refcell.rs"
 
+[[bin]]
+name = "differentClones"
+path = "src/bin/chapters/advanced_topics/different_clones.rs"
+
 
 [dependencies]
 crossterm = "0.28"
