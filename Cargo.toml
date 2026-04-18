@@ -123,6 +123,10 @@ path = "src/bin/chapters/advanced_topics/refcell.rs"
 name = "differentClones"
 path = "src/bin/chapters/advanced_topics/different_clones.rs"
 
+[[bin]]
+name = "word_count"
+path = "src/bin/chapters/word_count/word_count.rs"
+
 
 [dependencies]
 crossterm = "0.28"
